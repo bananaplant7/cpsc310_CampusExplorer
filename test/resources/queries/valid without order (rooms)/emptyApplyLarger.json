@@ -1,0 +1,78 @@
+{
+	"title": "emptyApplyLarger",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"IS": {
+						"rooms_furniture": "*Tables*"
+					}
+				},
+				{
+					"GT": {
+						"rooms_seats": 100
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"rooms_shortname"
+			]
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"rooms_shortname"
+			],
+			"APPLY": []
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"rooms_shortname": "BUCH"
+		},
+		{
+			"rooms_shortname": "CHBE"
+		},
+		{
+			"rooms_shortname": "FRDM"
+		},
+		{
+			"rooms_shortname": "HEBB"
+		},
+		{
+			"rooms_shortname": "ANGU"
+		},
+		{
+			"rooms_shortname": "DMP"
+		},
+		{
+			"rooms_shortname": "IBLC"
+		},
+		{
+			"rooms_shortname": "LSK"
+		},
+		{
+			"rooms_shortname": "LSC"
+		},
+		{
+			"rooms_shortname": "MCLD"
+		},
+		{
+			"rooms_shortname": "PHRM"
+		},
+		{
+			"rooms_shortname": "OSBO"
+		},
+		{
+			"rooms_shortname": "SRC"
+		},
+		{
+			"rooms_shortname": "SWNG"
+		},
+		{
+			"rooms_shortname": "WOOD"
+		}
+	]
+}

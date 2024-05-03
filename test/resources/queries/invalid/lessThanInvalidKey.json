@@ -1,0 +1,20 @@
+{
+	"title": "less than invalid key",
+	"input": {
+		"WHERE": {
+			"NOT": {
+				"LT": {
+					"": 97
+				}
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_avg"
+			],
+			"ORDER": "sections_avg"
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

@@ -1,0 +1,15 @@
+{
+	"title": "empty options",
+	"input": {
+		"WHERE": {
+			"NOT": {
+				"LT": {
+					"sections_avg": 97
+				}
+			}
+		},
+		"OPTIONS": {}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

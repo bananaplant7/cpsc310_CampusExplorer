@@ -1,0 +1,140 @@
+{
+	"title": "endsWithInstructor",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_instructor": "*ole"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_instructor",
+				"sections_avg"
+			],
+			"ORDER": "sections_instructor"
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_instructor": "adler, nicole",
+			"sections_avg": 78.82
+		},
+		{
+			"sections_instructor": "blackburn, carole",
+			"sections_avg": 79.8
+		},
+		{
+			"sections_instructor": "blackburn, carole",
+			"sections_avg": 74.78
+		},
+		{
+			"sections_instructor": "chauvin-payan, carole",
+			"sections_avg": 83.77
+		},
+		{
+			"sections_instructor": "fortin, nicole",
+			"sections_avg": 84
+		},
+		{
+			"sections_instructor": "fortin, nicole",
+			"sections_avg": 81.29
+		},
+		{
+			"sections_instructor": "fortin, nicole",
+			"sections_avg": 89
+		},
+		{
+			"sections_instructor": "fortin, nicole",
+			"sections_avg": 81.5
+		},
+		{
+			"sections_instructor": "fortin, nicole",
+			"sections_avg": 83.13
+		},
+		{
+			"sections_instructor": "fortin, nicole",
+			"sections_avg": 88.15
+		},
+		{
+			"sections_instructor": "fortin, nicole",
+			"sections_avg": 83
+		},
+		{
+			"sections_instructor": "fortin, nicole",
+			"sections_avg": 89.54
+		},
+		{
+			"sections_instructor": "fortin, nicole",
+			"sections_avg": 87
+		},
+		{
+			"sections_instructor": "fortin, nicole",
+			"sections_avg": 88.82
+		},
+		{
+			"sections_instructor": "fortin, nicole",
+			"sections_avg": 88.15
+		},
+		{
+			"sections_instructor": "fortin, nicole",
+			"sections_avg": 89.92
+		},
+		{
+			"sections_instructor": "fortin, nicole",
+			"sections_avg": 87.33
+		},
+		{
+			"sections_instructor": "fortin, nicole",
+			"sections_avg": 88.83
+		},
+		{
+			"sections_instructor": "fortin, nicole",
+			"sections_avg": 89.92
+		},
+		{
+			"sections_instructor": "fortin, nicole",
+			"sections_avg": 85.73
+		},
+		{
+			"sections_instructor": "fortin, nicole",
+			"sections_avg": 84.06
+		},
+		{
+			"sections_instructor": "fortin, nicole",
+			"sections_avg": 81.95
+		},
+		{
+			"sections_instructor": "fusaro, nicole",
+			"sections_avg": 90.38
+		},
+		{
+			"sections_instructor": "mirante, nicole",
+			"sections_avg": 82
+		},
+		{
+			"sections_instructor": "strum, nicole",
+			"sections_avg": 67.03
+		},
+		{
+			"sections_instructor": "wilson, carole",
+			"sections_avg": 86.45
+		},
+		{
+			"sections_instructor": "wilson, carole",
+			"sections_avg": 89.69
+		},
+		{
+			"sections_instructor": "wilson, carole",
+			"sections_avg": 84.65
+		},
+		{
+			"sections_instructor": "wilson, carole",
+			"sections_avg": 86.92
+		},
+		{
+			"sections_instructor": "wilson, carole",
+			"sections_avg": 83.73
+		}
+	]
+}

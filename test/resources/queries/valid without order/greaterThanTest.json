@@ -1,0 +1,42 @@
+{
+	"title": "greater than test",
+	"input": {
+		"WHERE": {
+			"GT": {
+				"sections_avg": 98.75
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_avg"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_avg": 99.19
+		},
+		{
+			"sections_avg": 98.8
+		},
+		{
+			"sections_avg": 98.76
+		},
+		{
+			"sections_avg": 98.76
+		},
+		{
+			"sections_avg": 99.78
+		},
+		{
+			"sections_avg": 99.78
+		},
+		{
+			"sections_avg": 98.98
+		},
+		{
+			"sections_avg": 98.98
+		}
+	]
+}

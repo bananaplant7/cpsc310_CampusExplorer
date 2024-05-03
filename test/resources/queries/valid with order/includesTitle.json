@@ -1,0 +1,140 @@
+{
+	"title": "includesTitle",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_title": "*oles*"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_title",
+				"sections_avg"
+			],
+			"ORDER": "sections_title"
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_title": "counsl adolescnt",
+			"sections_avg": 87.38
+		},
+		{
+			"sections_title": "counsl adolescnt",
+			"sections_avg": 86.17
+		},
+		{
+			"sections_title": "counsl adolescnt",
+			"sections_avg": 88.1
+		},
+		{
+			"sections_title": "counsl adolescnt",
+			"sections_avg": 87.35
+		},
+		{
+			"sections_title": "counsl adolescnt",
+			"sections_avg": 87.35
+		},
+		{
+			"sections_title": "counsl adolescnt",
+			"sections_avg": 88.42
+		},
+		{
+			"sections_title": "counsl adolescnt",
+			"sections_avg": 88.56
+		},
+		{
+			"sections_title": "counsl adolescnt",
+			"sections_avg": 88.13
+		},
+		{
+			"sections_title": "counsl adolescnt",
+			"sections_avg": 89
+		},
+		{
+			"sections_title": "counsl adolescnt",
+			"sections_avg": 89
+		},
+		{
+			"sections_title": "counsl adolescnt",
+			"sections_avg": 92.06
+		},
+		{
+			"sections_title": "counsl adolescnt",
+			"sections_avg": 92.06
+		},
+		{
+			"sections_title": "counsl adolescnt",
+			"sections_avg": 88.78
+		},
+		{
+			"sections_title": "counsl adolescnt",
+			"sections_avg": 88.78
+		},
+		{
+			"sections_title": "counsl adolescnt",
+			"sections_avg": 89.25
+		},
+		{
+			"sections_title": "counsl adolescnt",
+			"sections_avg": 89.25
+		},
+		{
+			"sections_title": "counsl adolescnt",
+			"sections_avg": 90.5
+		},
+		{
+			"sections_title": "counsl adolescnt",
+			"sections_avg": 90.5
+		},
+		{
+			"sections_title": "counsl adolescnt",
+			"sections_avg": 91.17
+		},
+		{
+			"sections_title": "counsl adolescnt",
+			"sections_avg": 91.17
+		},
+		{
+			"sections_title": "counsl adolescnt",
+			"sections_avg": 88.27
+		},
+		{
+			"sections_title": "counsl adolescnt",
+			"sections_avg": 88.27
+		},
+		{
+			"sections_title": "counsl adolescnt",
+			"sections_avg": 85.91
+		},
+		{
+			"sections_title": "counsl adolescnt",
+			"sections_avg": 85.91
+		},
+		{
+			"sections_title": "counsl adolescnt",
+			"sections_avg": 95.36
+		},
+		{
+			"sections_title": "counsl adolescnt",
+			"sections_avg": 95.36
+		},
+		{
+			"sections_title": "ed adolescnt yrs",
+			"sections_avg": 65.55
+		},
+		{
+			"sections_title": "ed adolescnt yrs",
+			"sections_avg": 65.55
+		},
+		{
+			"sections_title": "ed adolescnt yrs",
+			"sections_avg": 68.86
+		},
+		{
+			"sections_title": "ed adolescnt yrs",
+			"sections_avg": 68.86
+		}
+	]
+}

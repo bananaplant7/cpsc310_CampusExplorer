@@ -1,0 +1,180 @@
+{
+	"title": "startsWithInstructor",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_instructor": "bole*"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_instructor",
+				"sections_avg"
+			],
+			"ORDER": "sections_instructor"
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_instructor": "bole, gregory michael",
+			"sections_avg": 71.13
+		},
+		{
+			"sections_instructor": "bole, gregory michael",
+			"sections_avg": 75.35
+		},
+		{
+			"sections_instructor": "bole, gregory michael",
+			"sections_avg": 75.46
+		},
+		{
+			"sections_instructor": "bole, gregory michael",
+			"sections_avg": 69.91
+		},
+		{
+			"sections_instructor": "bole, gregory michael",
+			"sections_avg": 72.08
+		},
+		{
+			"sections_instructor": "bole, gregory michael",
+			"sections_avg": 68.82
+		},
+		{
+			"sections_instructor": "bole, gregory michael",
+			"sections_avg": 69.23
+		},
+		{
+			"sections_instructor": "bole, gregory michael",
+			"sections_avg": 67.97
+		},
+		{
+			"sections_instructor": "bole, gregory michael",
+			"sections_avg": 73.62
+		},
+		{
+			"sections_instructor": "bole, gregory michael",
+			"sections_avg": 69.28
+		},
+		{
+			"sections_instructor": "bole, gregory michael",
+			"sections_avg": 69.42
+		},
+		{
+			"sections_instructor": "bole, gregory michael",
+			"sections_avg": 71.63
+		},
+		{
+			"sections_instructor": "bole, gregory michael",
+			"sections_avg": 70.1
+		},
+		{
+			"sections_instructor": "bole, gregory michael",
+			"sections_avg": 66.78
+		},
+		{
+			"sections_instructor": "bole, gregory michael",
+			"sections_avg": 67.79
+		},
+		{
+			"sections_instructor": "bole, gregory michael",
+			"sections_avg": 71.76
+		},
+		{
+			"sections_instructor": "bole, gregory michael",
+			"sections_avg": 65.9
+		},
+		{
+			"sections_instructor": "bole, gregory michael",
+			"sections_avg": 71.09
+		},
+		{
+			"sections_instructor": "bole, gregory michael",
+			"sections_avg": 67.7
+		},
+		{
+			"sections_instructor": "bole, gregory michael",
+			"sections_avg": 70.4
+		},
+		{
+			"sections_instructor": "bole, gregory michael;cooke, james",
+			"sections_avg": 71.23
+		},
+		{
+			"sections_instructor": "bole, gregory michael;draghi, jeremy",
+			"sections_avg": 73.06
+		},
+		{
+			"sections_instructor": "bole, gregory michael;draghi, jeremy",
+			"sections_avg": 72.68
+		},
+		{
+			"sections_instructor": "bole, gregory michael;fox, joanne alison;han, andrea",
+			"sections_avg": 75.48
+		},
+		{
+			"sections_instructor": "bole, gregory michael;fox, joanne alison;han, andrea",
+			"sections_avg": 77.63
+		},
+		{
+			"sections_instructor": "bole, gregory michael;keeling, naomi;whitton, jeannette",
+			"sections_avg": 69.47
+		},
+		{
+			"sections_instructor": "bole, gregory michael;keeling, naomi;whitton, jeannette",
+			"sections_avg": 73.08
+		},
+		{
+			"sections_instructor": "bole, gregory michael;pollock, carol",
+			"sections_avg": 74.04
+		},
+		{
+			"sections_instructor": "bole, gregory michael;pollock, carol",
+			"sections_avg": 73.65
+		},
+		{
+			"sections_instructor": "bole, gregory michael;pollock, carol;sun, chin",
+			"sections_avg": 72.83
+		},
+		{
+			"sections_instructor": "bole, gregory michael;steyn, douw gerbrand",
+			"sections_avg": 72.44
+		},
+		{
+			"sections_instructor": "bole, gregory michael;weir, laura",
+			"sections_avg": 74.24
+		},
+		{
+			"sections_instructor": "bole, gregory michael;weir, laura",
+			"sections_avg": 73.17
+		},
+		{
+			"sections_instructor": "bole, gregory michael;whitton, jeannette",
+			"sections_avg": 69.7
+		},
+		{
+			"sections_instructor": "bole, gregory michael;whitton, jeannette",
+			"sections_avg": 72.52
+		},
+		{
+			"sections_instructor": "boley, aaron",
+			"sections_avg": 82
+		},
+		{
+			"sections_instructor": "boley, aaron",
+			"sections_avg": 80.88
+		},
+		{
+			"sections_instructor": "boley, aaron;gladman, brett",
+			"sections_avg": 78.33
+		},
+		{
+			"sections_instructor": "boley, aaron;hickson, paul",
+			"sections_avg": 88.22
+		},
+		{
+			"sections_instructor": "boley, aaron;strubbe, linda",
+			"sections_avg": 74.96
+		}
+	]
+}

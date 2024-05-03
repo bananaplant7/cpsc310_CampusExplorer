@@ -1,0 +1,121 @@
+{
+	"title": "complexNoOrder3",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"IS": {
+						"rooms_furniture": "*Tables*"
+					}
+				},
+				{
+					"GT": {
+						"rooms_seats": 100
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"rooms_shortname",
+				"a1",
+				"a2"
+			]
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"rooms_shortname"
+			],
+			"APPLY": [
+				{
+					"a1": {
+						"COUNT": "rooms_seats"
+					}
+				},
+				{
+					"a2": {
+						"SUM": "rooms_seats"
+					}
+				}
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"rooms_shortname": "BUCH",
+			"a1": 1,
+			"a2": 216
+		},
+		{
+			"rooms_shortname": "CHBE",
+			"a1": 1,
+			"a2": 200
+		},
+		{
+			"rooms_shortname": "FRDM",
+			"a1": 1,
+			"a2": 160
+		},
+		{
+			"rooms_shortname": "HEBB",
+			"a1": 1,
+			"a2": 375
+		},
+		{
+			"rooms_shortname": "ANGU",
+			"a1": 1,
+			"a2": 260
+		},
+		{
+			"rooms_shortname": "DMP",
+			"a1": 2,
+			"a2": 280
+		},
+		{
+			"rooms_shortname": "IBLC",
+			"a1": 2,
+			"a2": 266
+		},
+		{
+			"rooms_shortname": "LSK",
+			"a1": 2,
+			"a2": 388
+		},
+		{
+			"rooms_shortname": "LSC",
+			"a1": 2,
+			"a2": 825
+		},
+		{
+			"rooms_shortname": "MCLD",
+			"a1": 2,
+			"a2": 259
+		},
+		{
+			"rooms_shortname": "PHRM",
+			"a1": 2,
+			"a2": 403
+		},
+		{
+			"rooms_shortname": "OSBO",
+			"a1": 1,
+			"a2": 442
+		},
+		{
+			"rooms_shortname": "SRC",
+			"a1": 1,
+			"a2": 897
+		},
+		{
+			"rooms_shortname": "SWNG",
+			"a1": 3,
+			"a2": 755
+		},
+		{
+			"rooms_shortname": "WOOD",
+			"a1": 1,
+			"a2": 360
+		}
+	]
+}

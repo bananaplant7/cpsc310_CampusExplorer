@@ -1,0 +1,36 @@
+{
+	"title": "less than test",
+	"input": {
+		"WHERE": {
+			"LT": {
+				"sections_avg": 4.5
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_avg"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_avg": 4
+		},
+		{
+			"sections_avg": 4
+		},
+		{
+			"sections_avg": 0
+		},
+		{
+			"sections_avg": 0
+		},
+		{
+			"sections_avg": 0
+		},
+		{
+			"sections_avg": 1
+		}
+	]
+}

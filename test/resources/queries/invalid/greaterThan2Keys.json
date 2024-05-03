@@ -1,0 +1,19 @@
+{
+	"title": "greater than 2 keys",
+	"input": {
+		"WHERE": {
+			"GT": {
+				"sections_avg": 97,
+				"sections_fail": 2
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_avg"
+			],
+			"ORDER": "sections_avg"
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

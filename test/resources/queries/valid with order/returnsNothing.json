@@ -1,0 +1,19 @@
+{
+	"title": "returnsNothing",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_uuid": "123"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_uuid",
+				"sections_avg"
+			],
+			"ORDER": "sections_uuid"
+		}
+	},
+	"errorExpected": false,
+	"expected": []
+}

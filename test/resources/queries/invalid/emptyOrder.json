@@ -1,0 +1,20 @@
+{
+	"title": "empty order",
+	"input": {
+		"WHERE": {
+			"NOT": {
+				"LT": {
+					"sections_avg": 97
+				}
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_avg"
+			],
+			"ORDER": ""
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

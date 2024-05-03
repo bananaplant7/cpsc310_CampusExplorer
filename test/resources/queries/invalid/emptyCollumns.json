@@ -1,0 +1,17 @@
+{
+	"title": "empty collumns",
+	"input": {
+		"WHERE": {
+			"NOT": {
+				"LT": {
+					"sections_avg": 97
+				}
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": []
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

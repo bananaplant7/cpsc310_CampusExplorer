@@ -1,0 +1,7 @@
+{
+	"title": "missingQuery",
+	"input": {
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

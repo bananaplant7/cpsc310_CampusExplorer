@@ -1,0 +1,24 @@
+{
+	"title": "equal test",
+	"input": {
+		"WHERE": {
+			"EQ": {
+				"sections_avg": 98.75
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_avg"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_avg": 98.75
+		},
+		{
+			"sections_avg": 98.75
+		}
+	]
+}
